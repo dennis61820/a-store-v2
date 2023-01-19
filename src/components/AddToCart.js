@@ -44,7 +44,9 @@ const AddToCart = ({ product }) => {
                 }`}
                 style={{ background: color }}
                 onClick={() => setMainColor(color)}
-              ></button>
+              >
+                <FaCheck />
+              </button>
             )
           })}
         </div>

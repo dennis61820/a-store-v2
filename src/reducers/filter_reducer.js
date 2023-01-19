@@ -1,4 +1,4 @@
-import { FaTableTennis } from 'react-icons/fa'
+// import { FaTableTennis } from 'react-icons/fa'
 import {
   LOAD_PRODUCTS,
   SET_LISTVIEW,

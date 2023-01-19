@@ -10,7 +10,7 @@ const Sort = () => {
     setListView,
     sort,
     updateSort,
-    stars,
+    // stars,
   } = useFilterContext()
   return (
     <Wrapper>

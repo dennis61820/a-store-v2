@@ -15,6 +15,14 @@ const FeaturedProducts = () => {
   if (loading) {
     return <Loading />
   }
+  if (error) {
+    return (
+      <>
+        <Error />
+        <Link to='/' />
+      </>
+    )
+  }
   return (
     <Wrapper className='section'>
       <div className='title'>
